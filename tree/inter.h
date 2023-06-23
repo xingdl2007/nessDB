@@ -11,5 +11,5 @@ void inter_new(struct hdr *hdr,
                uint32_t height,
                uint32_t children,
                struct node **n);
-struct node_operations inter_operations;
+extern struct node_operations inter_operations;
 #endif /* nessDB_INTER_H_ */

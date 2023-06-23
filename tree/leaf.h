@@ -19,6 +19,6 @@ void leaf_new(struct hdr *hdr,
               uint32_t children,
               struct node **n);
 
-struct node_operations leaf_operations;
+extern struct node_operations leaf_operations;
 
 #endif /* nessDB_LEAF_H_ */

@@ -7,6 +7,6 @@
 #ifndef nessDB_FILE_H_
 #define nessDB_FILE_H_
 
-struct ness_vfs ness_osvfs;
+extern struct ness_vfs ness_osvfs;
 
 #endif /* nessDB_FILE_H_ */

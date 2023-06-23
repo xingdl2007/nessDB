@@ -37,7 +37,7 @@ BENCH_OBJS = $(B_OBJS)
 
 LIBRARY = libnessdb.so
 STATIC  = libnessdb.a
-BENCH   = db-bench
+BENCH   = db_bench
 all: banner $(LIB_OBJS) $(LIBRARY) $(STATIC)
 banner:
 	@echo "nessDB $(MAJOR).$(MINOR) -_-"
